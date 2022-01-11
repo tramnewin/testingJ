@@ -6,6 +6,7 @@ null: nothing, set sth to nothing
 symbol: immutable primitive val that is unique
 object: can store a lot of diff key value
 of set data to a var, a label to point to a data, easy to manipulate data type
+variable automatically set to undefined (like the full word)
  */
 //var myName = "Tr";
 //myName = 8;
