@@ -68,3 +68,7 @@ var nestedArray = [["the uni", 23],["everything", 101001]];
 console.log(nestedArray[0]);
 nestedArray[0][0] = 1;
 console.log(nestedArray[0]);
+ourArray.push("qwrqd");
+console.log(ourArray);
+ourArray.pop();
+console.log(ourArray);
