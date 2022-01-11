@@ -72,3 +72,9 @@ ourArray.push("qwrqd");
 console.log(ourArray);
 ourArray.pop();
 console.log(ourArray);
+//shift to the left
+ourArray.shift();
+console.log(ourArray);
+ourArray.unshift("Johnathan");
+console.log(ourArray);
+
