@@ -66,4 +66,13 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInline(testArr , 6));
 console.log("After: " + JSON.stringify(testArr));
 
-
+function testIfElseStatement(val){
+    if (val<10){
+        console.log("do sth");
+    }else if (val >=10){
+        console.log("qwe");
+    }else{
+        console.log("2413wre");
+    }
+}
+testIfElseStatement(7);
