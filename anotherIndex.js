@@ -76,3 +76,25 @@ function testIfElseStatement(val){
     }
 }
 testIfElseStatement(7);
+
+function caseInSwitch(val){
+    var answer =0;
+    switch (val){
+        case 1:
+            answer = val*2;
+
+            break;
+        case 2:
+            answer = val*2;
+            break;
+        case 3:
+            answer = val*2;
+            break;
+        default:
+            answer = val;
+            break;
+    }
+    return answer;
+}
+let result = caseInSwitch(2);
+console.log(result);
