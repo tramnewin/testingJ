@@ -7,6 +7,7 @@ symbol: immutable primitive val that is unique
 object: can store a lot of diff key value
 of set data to a var, a label to point to a data, easy to manipulate data type
 variable automatically set to undefined (like the full word)
+undefined is NULL
  */
 //var myName = "Tr";
 //myName = 8;
@@ -79,3 +80,17 @@ console.log(ourArray);
 ourArray.unshift("Johnathan");
 console.log(ourArray);
 
+var theArray = [];
+var i = 0;
+while(i<5){
+    theArray.push(i);
+    i++;
+}
+console.log(theArray);
+theArray.pop();
+console.log(theArray);
+
+for (var j = 0; j<4; j++){
+    theArray[j]=0;
+}
+console.log(theArray);
