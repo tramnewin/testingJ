@@ -98,3 +98,8 @@ function caseInSwitch(val){
 }
 let result = caseInSwitch(2);
 console.log(result);
+
+function isLess(a,b){
+    return a<b;
+}
+console.log(isLess(5,10));
